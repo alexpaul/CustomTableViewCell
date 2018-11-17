@@ -42,6 +42,42 @@ Be sure to have the cell selected in canvas in order to get access to the identi
 
 ## 7. Result of running the app using the default UITableViewCell
 
+<details>
+  <summar>RecipeViewController using standard UITableViewCell to display recipe info</summary>
+  
+```swift
+import UIKit
+
+class RecipeViewController: UIViewController {
+  
+  @IBOutlet weak var tableView: UITableView!
+  
+  private var recipes = [Recipe]()
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    recipes = Recipe.getRecipes()
+    tableView.dataSource = self
+  }
+}
+
+extension RecipeViewController: UITableViewDataSource {
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return recipes.count
+  }
+  
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCell(withIdentifier: "RecipeCell", for: indexPath)
+    let recipe = recipes[indexPath.row]
+    cell.imageView?.image = recipe.image
+    cell.textLabel?.text = recipe.name
+    return cell
+  }
+}
+```
+  
+</details> 
+
 **Steps to follow to ensure table view is setup correctly:**  
 1. Conform the RecipeViewController to UITableViewDataSource 
 2. Implement the two required protocol methods: numberOfRowAt and cellForRowAt methods 
