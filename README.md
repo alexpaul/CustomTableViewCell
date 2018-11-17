@@ -42,8 +42,7 @@ Be sure to have the cell selected in canvas in order to get access to the identi
 
 ## 7. Result of running the app using the default UITableViewCell
 
-<details>
-  <summar>RecipeViewController using standard UITableViewCell to display recipe info</summary>
+RecipeViewController using standard UITableViewCell to display recipe info
   
 ```swift
 import UIKit
@@ -75,8 +74,6 @@ extension RecipeViewController: UITableViewDataSource {
   }
 }
 ```
-  
-</details> 
 
 </br> 
 
@@ -209,8 +206,8 @@ Connect the image view
 
 ## 26. Simulator now shows our custom RecipeCell
 
-<details>
-  <summary>RecipeViewController with updated custom cell class RecipeCell</summary>
+RecipeViewController with updated custom cell class RecipeCell
+  
   
 ```swift
 import UIKit
@@ -250,8 +247,8 @@ extension RecipeViewController: UITableViewDelegate {
   }
 }
 ```
-  
-</details>
+
+</br>
 
 <p> 
 <img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/custom-recipe-cell.png" width="300" height="650" />
