@@ -18,6 +18,7 @@ class RecipeViewController: UIViewController {
     super.viewDidLoad()
     recipes = Recipe.getRecipes()
     tableView.dataSource = self
+    tableView.delegate = self
   }
 }
 
@@ -27,11 +28,17 @@ extension RecipeViewController: UITableViewDataSource {
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "RecipeCell", for: indexPath)
+    guard let cell = tableView.dequeueReusableCell(withIdentifier: "RecipeCell", for: indexPath) as? RecipeCell
+      else { fatalError("error getting recipe cell") }
     let recipe = recipes[indexPath.row]
-    cell.imageView?.image = recipe.image
-    cell.textLabel?.text = recipe.name
+    cell.recipeImage.image = recipe.image
+    cell.recipeName.text = recipe.name
     return cell
   }
 }
 
+extension RecipeViewController: UITableViewDelegate {
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    return 400
+  }
+}
