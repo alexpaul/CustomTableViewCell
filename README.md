@@ -78,6 +78,8 @@ extension RecipeViewController: UITableViewDataSource {
   
 </details> 
 
+</br> 
+
 **Steps to follow to ensure table view is setup correctly:**  
 1. Conform the RecipeViewController to UITableViewDataSource 
 2. Implement the two required protocol methods: numberOfRowAt and cellForRowAt methods 
