@@ -129,7 +129,7 @@ Set the top, leading and trailing to 0.
 <img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/imageview-height-ratio-with-cell.png" width="800" height="500" />
 </p>
 
-## 14. Control drag to from the image view to the cell
+## 14. Control drag from the image view to the cell
 
 Select equal heights from the dialog.
 
@@ -206,6 +206,50 @@ Connect the image view
 </p>
 
 ## 26. Simulator now shows our custom RecipeCell
+
+<details>
+  <summary>RecipeViewController with updated custom cell class RecipeCell</summary>
+  
+```swift
+import UIKit
+
+class RecipeViewController: UIViewController {
+  
+  @IBOutlet weak var tableView: UITableView!
+  
+  private var recipes = [Recipe]()
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    recipes = Recipe.getRecipes()
+    tableView.dataSource = self
+    tableView.delegate = self
+  }
+}
+
+extension RecipeViewController: UITableViewDataSource {
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return recipes.count
+  }
+  
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    guard let cell = tableView.dequeueReusableCell(withIdentifier: "RecipeCell", for: indexPath) as? RecipeCell
+      else { fatalError("error getting recipe cell") }
+    let recipe = recipes[indexPath.row]
+    cell.recipeImage.image = recipe.image
+    cell.recipeName.text = recipe.name
+    return cell
+  }
+}
+
+extension RecipeViewController: UITableViewDelegate {
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    return 400
+  }
+}
+```
+  
+</details>
 
 <p> 
 <img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/custom-recipe-cell.png" width="300" height="650" />
