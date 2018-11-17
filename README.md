@@ -31,7 +31,7 @@
 Be sure to have the cell selected in canvas in order to get access to the identifier in the attributes inspector. To avoid having crashed be sure to copy the identifier that you entered in the attributed inspector as it needs to match in the RecipeViewController - cellForRowAt method. 
 
 <p> 
-<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-identifier-in-attributes-inspector.png" width="800" height="500" />
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-identifier-in-attributes-inspector.png" width="354" height="349" />
 </p>
 
 ## 6. Connect the table view outlet to the RecipeViewController
