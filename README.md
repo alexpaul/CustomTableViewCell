@@ -134,7 +134,7 @@ Set the top, leading and trailing to 0.
 Select equal heights from the dialog.
 
 <p> 
-<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/select-equal-heights-with-cell.png" width="800" height="500" />
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/select-equal-heights-with-cell.png" width="373" height="331" />
 </p>
 
 ## 15. Image view height constraints 
@@ -146,7 +146,7 @@ Select equal heights from the dialog.
 ## 16. Set the height ratio to be 50% of the cell's height
 
 <p> 
-<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-height-ratio-50-percent-cell.png" width="800" height="500" />
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-height-ratio-50-percent-cell.png" width="282" height="216" />
 </p>
 
 ## 17. Drag a label onto the cell below the image view
@@ -188,7 +188,7 @@ Select equal heights from the dialog.
 ## 23. We need to update the cell class to our custom RecipeCell
 
 <p> 
-<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/class-should-be-recipecell.png" width="800" height="500" />
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/class-should-be-recipecell.png" width="319" height="166" />
 </p>
 
 ## 24. Now we can connect our custom class's outlets to the RecipeViewController scene in Storyboard
