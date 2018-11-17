@@ -89,6 +89,8 @@ extension RecipeViewController: UITableViewDataSource {
 <img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/uitableviewcell-default-cell.png" width="300" height="650" />
 </p>
 
+## Now creating custom cell - RecipeCell
+
 ## 8. Select the cell and edit the height in canvas
 
 This will only show us a preview of what the cell will look like. The size in interface builder does not affect the final size of the cell. We have to use heightForRowAt to return the intended height. Default cell heights are 44 points. 
