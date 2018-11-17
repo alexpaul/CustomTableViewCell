@@ -26,7 +26,7 @@
 <img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/drag-a-tableviewcell-onto-tableview.png" width="800" height="500" />
 </p>
 
-## 5. Set the reuse identifier in the attribues inspector for the cell.
+## 5. Set the reuse identifier in the attributes inspector for the cell.
 
 Be sure to have the cell selected in canvas in order to get access to the identifier in the attributes inspector. To avoid having crashed be sure to copy the identifier that you entered in the attributed inspector as it needs to match in the RecipeViewController - cellForRowAt method. 
 
