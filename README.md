@@ -11,13 +11,13 @@
 ## 2. Drag the table view onto the scene in canvas
 
 <p> 
-<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/drap-tableview-to-scene.png" width="800" height="500" />
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/drag-tableview-to-scene.png" width="800" height="500" />
 </p>
 
 ## 3. Set table view contstraints
 
 <p> 
-<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-table-view-constraints.png" width="800" height="500" />
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-table-view-contraints.png" width="800" height="500" />
 </p>
 
 ## 4. Drag a table view cell onto the table view
@@ -48,5 +48,5 @@ Be sure to have the cell selected in canvas in order to get access to the identi
 3. Set the table view property datasoure to self
 
 <p> 
-<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/uitableviewcell-default.png" width="300" height="650" />
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/uitableviewcell-default-cell.png" width="300" height="650" />
 </p>
