@@ -88,3 +88,125 @@ extension RecipeViewController: UITableViewDataSource {
 <p> 
 <img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/uitableviewcell-default-cell.png" width="300" height="650" />
 </p>
+
+## 8. Select the cell and edit the height in canvas
+
+This will only show us a preview of what the cell will look like. The size in interface builder does not affect the final size of the cell. We have to use heightForRowAt to return the intended height. Default cell heights are 44 points. 
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/select-cell-edit-height-in-canvas.png" width="800" height="500" />
+</p>
+
+## 9. Set the height to 400 points
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-canvas-height-to-400.png" width="800" height="500" />
+</p>
+
+## 10. Drag an image view onto the cell
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/drag-imageview-onto-cell.png" width="800" height="500" />
+</p>
+
+## 11. Adjust the image view to half the cell's height
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/format-imageview-half-height-cell.png" width="800" height="500" />
+</p>
+
+## 12. Set the image view constraints.
+
+Set the top, leading and trailing to 0. 
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-imageview-constraints-top-leading-trailing.png" width="800" height="500" />
+</p>
+
+## 13. Set the height ratio in relation to the cell
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/imageview-height-ratio-with-cell.png" width="800" height="500" />
+</p>
+
+## 14. Control drag to from the image view to the cell
+
+Select equal heights from the dialog.
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/select-equal-heights-with-cell.png" width="800" height="500" />
+</p>
+
+## 15. Image view height constraints 
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/edit-imageview-height-contraints.png" width="800" height="500" />
+</p>
+
+## 16. Set the height ratio to be 50% of the cell's height
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-height-ratio-50-percent-cell.png" width="800" height="500" />
+</p>
+
+## 17. Drag a label onto the cell below the image view
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/drag-label-onto-cell-set-constraints.png" width="800" height="500" />
+</p>
+
+## 18. Create a new subclass of UITableViewCell
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/create-new-subclass-uitableviewcell.png" width="800" height="500" />
+</p>
+
+## 19. Name the subclass RecipeCell
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/name-subclass-recipe-cell.png" width="800" height="500" />
+</p>
+
+## 20. The RecipeCell class
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/recipecell-class.png" width="800" height="500" />
+</p>
+
+## 21. The assistance editor should be laid out as pictured below
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/assistant-editor-look-setup-outlets.png" width="800" height="500" />
+</p>
+
+## 22. The current cell class is UITableViewCell 
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/current-class-uitableviewcell.png" width="800" height="500" />
+</p>
+
+## 23. We need to update the cell class to our custom RecipeCell
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/class-should-be-recipecell.png" width="800" height="500" />
+</p>
+
+## 24. Now we can connect our custom class's outlets to the RecipeViewController scene in Storyboard
+
+Connect the image view
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/connect-imageview-outlet-from-recipecell.png" width="800" height="500" />
+</p>
+
+## 25. Connect the label from the RecipeCell to the RecipeViewController scene
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/connect-label-outlet-from-recipecell.png" width="800" height="500" />
+</p>
+
+## 26. Simulator now shows our custom RecipeCell
+
+<p> 
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/custom-recipe-cell.png" width="300" height="650" />
+</p>
