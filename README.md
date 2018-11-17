@@ -182,7 +182,7 @@ Select equal heights from the dialog.
 ## 22. The current cell class is UITableViewCell 
 
 <p> 
-<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/current-class-uitableviewcell.png" width="800" height="500" />
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/current-class-uitableviewcell.png" width="260" height="128" />
 </p>
 
 ## 23. We need to update the cell class to our custom RecipeCell
