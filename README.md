@@ -100,7 +100,7 @@ This will only show us a preview of what the cell will look like. The size in in
 ## 9. Set the height to 400 points
 
 <p> 
-<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-canvas-height-to-400.png" width="800" height="500" />
+<img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-canvas-height-to-400.png" width="347" height="249" />
 </p>
 
 ## 10. Drag an image view onto the cell
