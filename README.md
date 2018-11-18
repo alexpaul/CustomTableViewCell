@@ -28,7 +28,7 @@
 
 ## 5. Set the reuse identifier in the attributes inspector for the cell.
 
-Be sure to have the cell selected in canvas in order to get access to the identifier in the attributes inspector. To avoid having crashed be sure to copy the identifier that you entered in the attributed inspector as it needs to match in the RecipeViewController - cellForRowAt method. 
+Be sure to have the cell selected in canvas in order to get access to the identifier in the attributes inspector. To avoid having a crash be sure to copy the reuse identifier that you entered in the attributes inspector as it needs to be an exact match in the RecipeViewController - cellForRowAtIndexPath method. 
 
 <p> 
 <img src="https://github.com/alexpaul/CustomTableViewCell/blob/master/Images/set-identifier-in-attributes-inspector.png" width="354" height="349" />
