@@ -1,4 +1,4 @@
-## Creating a custom table view cell
+## Creating a custom table view cell in Storyboard
 
 ## Steps 
 
